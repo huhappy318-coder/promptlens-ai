@@ -1,0 +1,37 @@
+{
+  "name": "promptlens",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@codemirror/commands": "latest",
+    "@codemirror/lang-markdown": "latest",
+    "@codemirror/lang-xml": "latest",
+    "@codemirror/language": "latest",
+    "@codemirror/search": "latest",
+    "@codemirror/state": "latest",
+    "@codemirror/view": "latest",
+    "@tailwindcss/vite": "latest",
+    "@xyflow/react": "latest",
+    "codemirror": "latest",
+    "lucide-react": "latest",
+    "nanoid": "latest",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "latest",
+    "typescript": "latest",
+    "vite": "latest",
+    "vitest": "latest"
+  }
+}
