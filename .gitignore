@@ -3,6 +3,9 @@ dist/
 .vite/
 *.log
 *.local
+.env
+.env.*
+!.env.example
 
 node_modules/.tmp/
 .DS_Store
